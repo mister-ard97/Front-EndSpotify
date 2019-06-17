@@ -1,0 +1,398 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primary-color: #498172;
+    --secondary-color:  #000000;
+    --text-color: #FFFFFF;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+div {
+    /*border: 1px solid red;*/
+}
+
+.black {
+    color: #000000;
+}
+
+.mbottom {
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.purple {
+    background-color: purple;
+}
+
+/*=========================================== HEADER SECTION ===========================================*/
+
+.header-container {
+    background-color: var(--secondary-color);
+    padding: 20px 105px;
+    display: flex;
+    justify-content: space-between;
+    /*position fixed berfungsi agar content berada di posisi tetap walaupun di scroll posisinya tetap*/
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+
+}
+
+.brand img {
+    height: 40px;
+}
+
+.brand img:hover {
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-item {
+    display: inline-block;
+    color: var(--text-color);
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.link-item:hover {
+    color: #1ab752;
+}
+
+.garis {
+    cursor: default;
+}
+
+.garis:hover {
+    color: #FFFFFF;
+}
+
+/*=========================================== END HEADER SECTION ===========================================*/
+
+/*=========================================== JUMBOTRON SECTION ===========================================*/
+
+.jumbotron-container {
+    margin-top: 87px;
+    padding: 30px 105px 0 105px;
+    background-color: var(--primary-color);
+}
+
+.jumbotron-items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.jumbotron-image img {
+    width: 467px;
+    padding-top: 30px;
+}
+
+.main-text {
+    font-size: 70px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.second-text {
+    margin-top: 30px;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.btn {
+    width: 327px;
+    height: 48px;
+    border-radius: 48px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.white {
+    background-color: #FFFFFF;
+}
+
+.white:hover {
+    cursor: pointer;
+}
+
+.second {
+    margin: 15px 0;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    width: 304px;
+    transition: background-color 500ms;
+}
+
+.second:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    cursor: pointer;
+}
+
+.small-text {
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/*=========================================== END JUMBOTRON SECTION ===========================================*/
+
+
+/*=========================================== JUMBOTRON 2 SECTION ===========================================*/
+.jumbotron-container2 {
+    padding: 30px 105px 0 105px;
+    background-color: #9387B4;
+}
+
+.jumbotron-text2 {
+    text-align: center;
+}
+
+.main-text2 {
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.small-text2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.small-text2 span {
+    text-decoration: underline;
+}
+
+.small-text2:hover {
+    cursor: pointer;
+}
+
+.btn2 {
+    width: 195px;
+    height: 48px;
+    border-radius: 48px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.second2 {
+    margin: 15px 0 40px 0;
+    background-color: #FFFFFF;
+    border: 1px solid white;
+    transition: 500ms;
+}
+
+.second2:hover {
+    background-color: transparent;
+    color: #000000;
+    cursor: pointer;
+}
+
+/*=========================================== END JUMBOTRON 2 SECTION ===========================================*/
+
+/*=========================================== SERVICES SECTION ===========================================*/
+.services-container {
+    padding: 30px 105px 0 105px;
+    text-align: center;
+}
+
+.title-text {
+    margin: 20px 0;
+    color: #000000;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.second-text2 {
+    margin-bottom: 20px;
+}
+
+.service-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.service-list li {
+    text-align: left;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.service-list li img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.service-btn {
+    width: 285px;
+    height: 48px;
+    border-radius: 48px;
+    background-color: #FFFFFF;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    transition: 500ms;
+}
+
+.services-container hr {
+    margin: 20px 0;
+}
+
+.service-btn:hover {
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+}
+
+.devices-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.devices-list p {
+    width: 95px;
+}
+
+/*=========================================== END OF SERVICES SECTION ===========================================*/
+
+/*=========================================== JUMBOTRON 3 SECTION ===========================================*/
+.jumbotron-container3 {
+    padding: 30px 105px 0 105px;
+    background-color: #8617D5;
+    background-image: url('https://www.scdn.co/i/free/lets-play.svg');
+}
+
+.service-btn2 {
+    width: 285px;
+    height: 48px;
+    border-radius: 48px;
+    background-color: #FFFFFF;
+    color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    transition: 500ms;
+    margin-bottom: 30px;
+}
+
+.service-btn2:hover {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid purple;
+    color: #FFFFFF;
+}
+
+/*=========================================== END OF JUMBOTRON 3 SECTION ===========================================*/
+
+/*=========================================== FOOTER SECTION ===========================================*/
+.footer-container {
+    padding: 50px 105px 30px 105px;
+    background-color: #000000;
+}
+
+.footer-items {
+    display: flex;
+    color: #FFFFFF;
+    margin-bottom: 150px;
+}
+
+.footer-item {
+    margin: 10px 40px 0 20px;
+}
+
+.footer-item p {
+    margin-bottom: 7px;
+    font-size: 14px;
+}
+
+.footer-item p:hover, .title-footer:hover {
+    cursor: pointer;
+}
+
+.footer-item .title-footer {
+    font-size: 16px;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.social-media {
+    margin-left: auto;
+}
+
+.social-media img {
+    padding: 10px;
+    width: 30px;
+    margin-right: 10px;
+    background-color: grey;
+    border-radius: 40px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+}
+
+.footer-links {
+    margin-top: 15px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    font-size: 12px;
+    color: grey;
+    margin-right: 15px;
+}
+
+.copyright {
+    font-size: 12px;
+}
+
+.copyright p {
+    text-align: right;
+}
+
+.copyright img {
+    width: 20px;
+}
+
+/*=========================================== END OF FOOTER SECTION ===========================================*/
+
+
+
+
+
